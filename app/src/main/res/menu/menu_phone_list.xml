@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.vulpes.phoneadvisorwithaa.activities.PhoneListActivity">
+
+<item
+    android:id="@+id/action_bookmark_from_phone_list"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/ic_action_star"
+    android:title="Favourites"/>
+
+<item
+    android:id="@+id/action_search_from_phone_list"
+    app:showAsAction="always|collapseActionView"
+    android:icon="@drawable/ic_action_search"
+    android:title="Search"
+    android:orderInCategory="0"
+    app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+
+    <item
+    android:id="@+id/action_settings"
+    android:title="@string/action_settings"
+    android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
